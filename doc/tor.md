@@ -42,11 +42,11 @@ reachable from the Tor network. Add these lines to your /etc/tor/torrc (or equiv
 config file):
 
 	HiddenServiceDir /var/lib/tor/twincoin-service/
-	HiddenServicePort 9333 127.0.0.1:9333
-	HiddenServicePort 19335 127.0.0.1:19335
+	HiddenServicePort 21349 127.0.0.1:21349
+	HiddenServicePort 2149 127.0.0.1:2149
 
 The directory can be different of course, but (both) port numbers should be equal to
-your twincoind's P2P listen port (9333 by default).
+your twincoind's P2P listen port (21349 by default).
 
 	-externalip=X   You can tell twincoin about its publicly reachable address using
 	                this option, and this can be a .onion address. Given the above
@@ -81,7 +81,7 @@ as well, use `discover` instead:
 
 	./twincoind ... -discover
 
-and open port 9333 on your firewall (or use -upnp).
+and open port 21349 on your firewall (or use -upnp).
 
 If you only want to use Tor to reach onion addresses, but not use it as a proxy
 for normal IPv4/IPv6 communication, use:
@@ -93,13 +93,13 @@ for normal IPv4/IPv6 communication, use:
 
 Starting with Tor version 0.2.7.1 it is possible, through Tor's control socket
 API, to create and destroy 'ephemeral' hidden services programmatically.
-twincoin Core has been updated to make use of this.
+Twincoin Core has been updated to make use of this.
 
 This means that if Tor is running (and proper authentication has been configured),
-twincoin Core automatically creates a hidden service to listen on. This will positively 
+Twincoin Core automatically creates a hidden service to listen on. This will positively 
 affect the number of available .onion nodes.
 
-This new feature is enabled by default if twincoin Core is listening (`-listen`), and
+This new feature is enabled by default if Twincoin Core is listening (`-listen`), and
 requires a Tor connection to work. It can be explicitly disabled with `-listenonion=0`
 and, if not disabled, configured using the `-torcontrol` and `-torpassword` settings.
 To show verbose debugging information, pass `-debug=tor`.

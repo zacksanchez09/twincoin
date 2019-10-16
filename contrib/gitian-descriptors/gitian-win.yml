@@ -22,7 +22,7 @@ packages:
 - "ca-certificates"
 - "python"
 remotes:
-- "url": "https://github.com/twincoin-project/twincoin.git"
+- "url": "https://github.com/interflexia/twincoin.git"
   "dir": "twincoin"
 files: []
 script: |

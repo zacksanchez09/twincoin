@@ -231,7 +231,7 @@
     </message>
     <message>
         <source>twincoin</source>
-        <translation>twincoin Core</translation>
+        <translation>Twincoin Core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -832,8 +832,8 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>twincoin Core</source>
-        <translation>twincoin Core</translation>
+        <source>Twincoin Core</source>
+        <translation>Twincoin Core</translation>
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>

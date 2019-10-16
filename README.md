@@ -1,42 +1,40 @@
 Twincoin Core integration/staging tree
 =====================================
 
-[![Build Status](https://travis-ci.org/twincoin-project/twincoin.svg?branch=master)](https://travis-ci.org/twincoin-project/twincoin)
-
-https://faithco.in
+https://twincoin.info
 
 What is twincoin?
 ----------------
 
-Twincoin is an experimental digital currency that enables instant payments to
-anyone, anywhere in the world. twincoin uses peer-to-peer technology to operate
+Twincoin is an digital currency that enables instant payments to
+anyone, anywhere in the world. Twincoin uses peer-to-peer technology to operate
 with no central authority: managing transactions and issuing money are carried
-out collectively by the network. twincoin Core is the name of open source
+out collectively by the network. Twincoin Core is the name of open source
 software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the twincoin Core software, see [https://faithco.in](https://faithco.in).
+the Twincoin Core software, see [https://twincoin.info](http://twincoin.info).
 
 License
 -------
 
-twincoin Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
+Twincoin Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
 information or see https://opensource.org/licenses/MIT.
 
 Development Process
 -------------------
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/twincoin-project/twincoin/tags) are created
-regularly to indicate new official, stable release versions of twincoin Core.
+completely stable. [Tags](https://github.com/Twincoin-project/Twincoin/tags) are created
+regularly to indicate new official, stable release versions of Twincoin Core.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).
 
-The developer [mailing list](https://groups.google.com/forum/#!forum/twincoin-dev)
+The developer [mailing list](https://groups.google.com/forum/#!forum/Twincoin-dev)
 should be used to discuss complicated or controversial changes before working
 on a patch set.
 
-Developer IRC can be found on Freenode at #twincoin-dev.
+Developer IRC can be found on Freenode at #Twincoin-dev.
 
 Testing
 -------
@@ -70,7 +68,7 @@ Translations
 ------------
 
 We only accept translation fixes that are submitted through [Bitcoin Core's Transifex page](https://www.transifex.com/projects/p/bitcoin/).
-Translations are converted to twincoin periodically.
+Translations are converted to Twincoin periodically.
 
 Translations are periodically pulled from Transifex and merged into the git repository. See the
 [translation process](doc/translation_process.md) for details on how this works.

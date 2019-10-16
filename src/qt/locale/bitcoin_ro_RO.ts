@@ -1702,7 +1702,7 @@
         <translation>Rulează în fundal ca un demon şi acceptă comenzi</translation>
     </message>
     <message>
-        <source>twincoin Core</source>
+        <source>Twincoin Core</source>
         <translation>Nucleul twincoin</translation>
     </message>
     <message>

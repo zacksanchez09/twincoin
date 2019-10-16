@@ -1758,7 +1758,7 @@
         <translation>Tööta taustal ning aktsepteeri käsklusi</translation>
     </message>
     <message>
-        <source>twincoin Core</source>
+        <source>Twincoin Core</source>
         <translation>twincoini tuumik</translation>
     </message>
     <message>

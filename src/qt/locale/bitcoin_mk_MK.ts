@@ -578,7 +578,7 @@
         <translation>Опции:</translation>
     </message>
     <message>
-        <source>twincoin Core</source>
+        <source>Twincoin Core</source>
         <translation>Биткоин Core</translation>
     </message>
     <message>

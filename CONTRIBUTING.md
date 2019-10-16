@@ -1,7 +1,7 @@
-Contributing to twincoin Core
+Contributing to Twincoin Core
 ============================
 
-The twincoin Core project operates an open contributor model where anyone is
+The Twincoin Core project operates an open contributor model where anyone is
 welcome to contribute towards development in the form of peer review, testing
 and patches. This document explains the practical process and guidelines for
 contributing.
@@ -157,10 +157,10 @@ where possible keep them short, uncomplex and easy to verify.
 "Decision Making" Process
 -------------------------
 
-The following applies to code changes to the twincoin Core project, and is not to be confused with overall twincoin
+The following applies to code changes to the Twincoin Core project, and is not to be confused with overall twincoin
 Network Protocol consensus changes.
 
-Whether a pull request is merged into twincoin Core rests with the project merge
+Whether a pull request is merged into Twincoin Core rests with the project merge
 maintainers and ultimately the project lead.
 
 Maintainers will take into consideration if a patch is in line with the general
@@ -259,11 +259,11 @@ about:
 Release Policy
 --------------
 
-The project leader is the release manager for each twincoin Core release.
+The project leader is the release manager for each Twincoin Core release.
 
 Copyright
 ---------
-Copyright 2017 The twincoin Core Developers
+Copyright 2017 The Twincoin Core Developers
 
 - bitcoin: Copyright (c) 2009-2017 Bitcoin Core Developers (MIT License)
 

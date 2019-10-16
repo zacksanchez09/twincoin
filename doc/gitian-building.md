@@ -1,7 +1,7 @@
 Gitian building
 ================
 
-*Setup instructions for a Gitian build of twincoin Core using a Debian VM or physical system.*
+*Setup instructions for a Gitian build of Twincoin Core using a Debian VM or physical system.*
 
 Gitian is the deterministic build process that is used to build the twincoin
 Core executables. It provides a way to be reasonably sure that the
@@ -26,7 +26,7 @@ Table of Contents
 - [Installing Gitian](#installing-gitian)
 - [Setting up the Gitian image](#setting-up-the-gitian-image)
 - [Getting and building the inputs](#getting-and-building-the-inputs)
-- [Building twincoin Core](#building-twincoin-core)
+- [Building Twincoin Core](#building-twincoin-core)
 - [Building an alternative repository](#building-an-alternative-repository)
 - [Signing externally](#signing-externally)
 - [Uploading signatures](#uploading-signatures)
@@ -314,7 +314,7 @@ Clone the git repositories for twincoin and Gitian.
 
 ```bash
 git clone https://github.com/devrandom/gitian-builder.git
-git clone https://github.com/twincoin-project/twincoin
+git clone https://github.com/interflexia/twincoin
 git clone https://github.com/twincoin-project/gitian.sigs.ltc.git
 ```
 
@@ -349,10 +349,10 @@ manual intervention. Also optionally follow the next step: 'Seed the Gitian sour
 and offline git repositories' which will fetch the remaining files required for building
 offline.
 
-Building twincoin Core
+Building Twincoin Core
 ----------------
 
-To build twincoin Core (for Linux, OS X and Windows) just follow the steps under 'perform
+To build Twincoin Core (for Linux, OS X and Windows) just follow the steps under 'perform
 Gitian builds' in [doc/release-process.md](release-process.md#perform-gitian-builds) in the twincoin repository.
 
 This may take some time as it will build all the dependencies needed for each descriptor.
@@ -372,7 +372,7 @@ Output from `gbuild` will look something like
     remote: Total 57959 (delta 0), reused 0 (delta 0), pack-reused 57958
     Receiving objects: 100% (57959/57959), 53.76 MiB | 484.00 KiB/s, done.
     Resolving deltas: 100% (41590/41590), done.
-    From https://github.com/twincoin-project/twincoin
+    From https://github.com/interflexia/twincoin
     ... (new tags, new branch etc)
     --- Building for trusty amd64 ---
     Stopping target if it is up
@@ -448,7 +448,7 @@ Then when building, override the remote URLs that gbuild would otherwise pull fr
 ```bash
 
 cd /some/root/path/
-git clone https://github.com/twincoin-project/twincoin-detached-sigs.git
+git clone https://github.com/interflexia/twincoin-detached-sigs.git
 
 BTCPATH=/some/root/path/twincoin
 SIGPATH=/some/root/path/twincoin-detached-sigs

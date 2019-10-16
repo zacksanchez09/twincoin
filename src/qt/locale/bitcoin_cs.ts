@@ -3058,8 +3058,8 @@
         <translation>Nemohu spustit HTTP server. Detaily viz v debug.log.</translation>
     </message>
     <message>
-        <source>twincoin Core</source>
-        <translation>twincoin Core</translation>
+        <source>Twincoin Core</source>
+        <translation>Twincoin Core</translation>
     </message>
     <message>
         <source>The %s developers</source>

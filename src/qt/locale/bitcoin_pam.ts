@@ -752,7 +752,7 @@
         <translation>Gumana king gulut bilang daemon at tumanggap commands</translation>
     </message>
     <message>
-        <source>twincoin Core</source>
+        <source>Twincoin Core</source>
         <translation>Kapilubluban ning twincoin</translation>
     </message>
     <message>

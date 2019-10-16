@@ -608,7 +608,7 @@
         <translation>Opciones:</translation>
     </message>
     <message>
-        <source>twincoin Core</source>
+        <source>Twincoin Core</source>
         <translation>nucleo twincoin</translation>
     </message>
     <message>

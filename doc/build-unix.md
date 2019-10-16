@@ -1,6 +1,6 @@
 UNIX BUILD NOTES
 ====================
-Some notes on how to build twincoin Core in Unix.
+Some notes on how to build Twincoin Core in Unix.
 
 (for OpenBSD specific instructions, see [build-openbsd.md](build-openbsd.md))
 
@@ -55,7 +55,7 @@ Memory Requirements
 --------------------
 
 C++ compilers are memory-hungry. It is recommended to have at least 1.5 GB of
-memory available when compiling twincoin Core. On systems with less, gcc can be
+memory available when compiling Twincoin Core. On systems with less, gcc can be
 tuned to conserve memory with additional CXXFLAGS:
 
 
@@ -94,7 +94,7 @@ BerkeleyDB 5.1 or later, which break binary wallet compatibility with the distri
 are based on BerkeleyDB 4.8. If you do not care about wallet compatibility,
 pass `--with-incompatible-bdb` to configure.
 
-See the section "Disable-wallet mode" to build twincoin Core without wallet.
+See the section "Disable-wallet mode" to build Twincoin Core without wallet.
 
 Optional (see --with-miniupnpc and --enable-upnp-default):
 
@@ -186,7 +186,7 @@ cd db-4.8.30.NC/build_unix/
 ../dist/configure --enable-cxx --disable-shared --with-pic --prefix=$BDB_PREFIX
 make install
 
-# Configure twincoin Core to use our own-built instance of BDB
+# Configure Twincoin Core to use our own-built instance of BDB
 cd $twincoin_ROOT
 ./autogen.sh
 ./configure LDFLAGS="-L${BDB_PREFIX}/lib/" CPPFLAGS="-I${BDB_PREFIX}/include/" # (other args...)
@@ -276,7 +276,7 @@ Setup and Build Example: Arch Linux
 This example lists the steps necessary to setup and build a command line only, non-wallet distribution of the latest changes on Arch Linux:
 
     pacman -S git base-devel boost libevent python
-    git clone https://github.com/twincoin-project/twincoin.git
+    git clone https://github.com/interflexia/twincoin.git
     cd twincoin/
     ./autogen.sh
     ./configure --disable-wallet --without-gui --without-miniupnpc
@@ -286,7 +286,7 @@ Note:
 Enabling wallet support requires either compiling against a Berkeley DB newer than 4.8 (package `db`) using `--with-incompatible-bdb`,
 or building and depending on a local version of Berkeley DB 4.8. The readily available Arch Linux packages are currently built using
 `--with-incompatible-bdb` according to the [PKGBUILD](https://projects.archlinux.org/svntogit/community.git/tree/bitcoin/trunk/PKGBUILD).
-As mentioned above, when maintaining portability of the wallet between the standard twincoin Core distributions and independently built
+As mentioned above, when maintaining portability of the wallet between the standard Twincoin Core distributions and independently built
 node software is desired, Berkeley DB 4.8 must be used.
 
 
@@ -334,7 +334,7 @@ For the wallet (optional):
 This will give a warning "configure: WARNING: Found Berkeley DB other
 than 4.8; wallets opened by this build will not be portable!", but as FreeBSD never
 had a binary release, this may not matter. If backwards compatibility
-with 4.8-built twincoin Core is needed follow the steps under "Berkeley DB" above.
+with 4.8-built Twincoin Core is needed follow the steps under "Berkeley DB" above.
 
 Then build using:
 

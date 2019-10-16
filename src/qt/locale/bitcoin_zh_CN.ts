@@ -3045,8 +3045,8 @@
         <translation>无法启动HTTP服务，查看日志获取更多信息</translation>
     </message>
     <message>
-        <source>twincoin Core</source>
-        <translation>twincoin Core</translation>
+        <source>Twincoin Core</source>
+        <translation>Twincoin Core</translation>
     </message>
     <message>
         <source>The %s developers</source>

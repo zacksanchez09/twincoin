@@ -1258,8 +1258,8 @@
         <translation>Запусціць у фоне як дэман і прымаць каманды</translation>
     </message>
     <message>
-        <source>twincoin Core</source>
-        <translation>twincoin Core</translation>
+        <source>Twincoin Core</source>
+        <translation>Twincoin Core</translation>
     </message>
     <message>
         <source>Do you want to rebuild the block database now?</source>

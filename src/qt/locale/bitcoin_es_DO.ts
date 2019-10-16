@@ -1123,7 +1123,7 @@
 </translation>
     </message>
     <message>
-        <source>twincoin Core</source>
+        <source>Twincoin Core</source>
         <translation>Núcleo de twincoin</translation>
     </message>
     <message>

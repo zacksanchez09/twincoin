@@ -446,8 +446,8 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>twincoin Core</source>
-        <translation>twincoin Core</translation>
+        <source>Twincoin Core</source>
+        <translation>Twincoin Core</translation>
     </message>
     <message>
         <source>Information</source>

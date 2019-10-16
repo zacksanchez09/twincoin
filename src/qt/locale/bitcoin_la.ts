@@ -768,7 +768,7 @@
         <translation>Operare infere sicut daemon et mandata accipe</translation>
     </message>
     <message>
-        <source>twincoin Core</source>
+        <source>Twincoin Core</source>
         <translation>twincoin Nucleus</translation>
     </message>
     <message>

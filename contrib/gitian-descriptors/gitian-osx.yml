@@ -28,7 +28,7 @@ packages:
 - "python-setuptools"
 - "fonts-tuffy"
 remotes:
-- "url": "https://github.com/twincoin-project/twincoin.git"
+- "url": "https://github.com/interflexia/twincoin.git"
   "dir": "twincoin"
 files:
 - "MacOSX10.11.sdk.tar.gz"

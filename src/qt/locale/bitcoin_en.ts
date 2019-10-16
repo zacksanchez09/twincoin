@@ -4066,8 +4066,8 @@
     </message>
     <message>
         <location line="-384"/>
-        <source>twincoin Core</source>
-        <translation type="unfinished">twincoin Core</translation>
+        <source>Twincoin Core</source>
+        <translation type="unfinished">Twincoin Core</translation>
     </message>
     <message>
         <location line="+1"/>

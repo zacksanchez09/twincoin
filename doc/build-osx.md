@@ -24,12 +24,12 @@ If you want to build the disk image with `make deploy` (.dmg / optional), you ne
 
 NOTE: Building with Qt4 is still supported, however, could result in a broken UI. Building with Qt5 is recommended.
 
-Build twincoin Core
+Build Twincoin Core
 ------------------------
 
 1. Clone the twincoin source code and cd into `twincoin`
 
-        git clone https://github.com/twincoin-project/twincoin
+        git clone https://github.com/interflexia/twincoin
         cd twincoin
 
 2.  Build twincoin-core:
@@ -53,7 +53,7 @@ Build twincoin Core
 Running
 -------
 
-twincoin Core is now available at `./src/twincoind`
+Twincoin Core is now available at `./src/twincoind`
 
 Before running, it's recommended you create an RPC configuration file.
 

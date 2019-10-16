@@ -156,7 +156,7 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>twincoin Core</source>
+        <source>Twincoin Core</source>
         <translation>twincoin Jezrga</translation>
     </message>
     </context>
