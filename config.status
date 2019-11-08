@@ -429,7 +429,7 @@ $config_links
 Configuration commands:
 $config_commands
 
-Report bugs to <https://github.com/interflexia/twincoin/issues>.
+Report bugs to <https://github.com/Twincoin/twincoin/issues>.
 Twincoin Core home page: <https://twincoin.info/>."
 
 ac_cs_config="--disable-shared --with-pic --with-bignum=no --enable-module-recovery --disable-jni"
@@ -1191,7 +1191,7 @@ S["program_transform_name"]="s,x,x,"
 S["prefix"]="/usr/local"
 S["exec_prefix"]="${prefix}"
 S["PACKAGE_URL"]="https://twincoin.info/"
-S["PACKAGE_BUGREPORT"]="https://github.com/interflexia/twincoin/issues"
+S["PACKAGE_BUGREPORT"]="https://github.com/Twincoin/twincoin/issues"
 S["PACKAGE_STRING"]="Twincoin Core 0.15.0"
 S["PACKAGE_VERSION"]="0.15.0"
 S["PACKAGE_TARNAME"]="twincoin"
@@ -1243,7 +1243,7 @@ D["PACKAGE_NAME"]=" \"Twincoin Core\""
 D["PACKAGE_TARNAME"]=" \"twincoin\""
 D["PACKAGE_VERSION"]=" \"0.15.0\""
 D["PACKAGE_STRING"]=" \"Twincoin Core 0.15.0\""
-D["PACKAGE_BUGREPORT"]=" \"https://github.com/interflexia/twincoin/issues\""
+D["PACKAGE_BUGREPORT"]=" \"https://github.com/Twincoin/twincoin/issues\""
 D["PACKAGE_URL"]=" \"https://twincoin.info/\""
 D["HAVE_CXX11"]=" 1"
 D["STDC_HEADERS"]=" 1"

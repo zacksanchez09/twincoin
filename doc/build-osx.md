@@ -29,7 +29,7 @@ Build Twincoin Core
 
 1. Clone the twincoin source code and cd into `twincoin`
 
-        git clone https://github.com/interflexia/twincoin
+        git clone https://github.com/Twincoin/twincoin
         cd twincoin
 
 2.  Build twincoin-core:

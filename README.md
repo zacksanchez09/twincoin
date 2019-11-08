@@ -13,7 +13,7 @@ out collectively by the network. Twincoin Core is the name of open source
 software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the Twincoin Core software, see [https://twincoin.info](http://twincoin.info).
+the Twincoin Core software, see [https://twincoin.info](https://twincoin.info).
 
 License
 -------
@@ -21,11 +21,16 @@ License
 Twincoin Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
 information or see https://opensource.org/licenses/MIT.
 
+UNIX BUILD
+-------
+
+Some notes on how to build Twincoin Core in Unix, see [https://github.com/Twincoin/twincoin/blob/master/doc/build-unix.md](https://github.com/Twincoin/twincoin/blob/master/doc/build-unix.md).
+
 Development Process
 -------------------
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/Twincoin-project/Twincoin/tags) are created
+completely stable. [Tags](https://github.com/Twincoin/twincoin/tags) are created
 regularly to indicate new official, stable release versions of Twincoin Core.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).

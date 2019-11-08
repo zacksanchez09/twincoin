@@ -347,7 +347,7 @@
 #define LT_OBJDIR ".libs/"
 
 /* Define to the address where bug reports for this package should be sent. */
-#define PACKAGE_BUGREPORT "https://github.com/interflexia/twincoin/issues"
+#define PACKAGE_BUGREPORT "https://github.com/Twincoin/twincoin/issues"
 
 /* Define to the full name of this package. */
 #define PACKAGE_NAME "Twincoin Core"

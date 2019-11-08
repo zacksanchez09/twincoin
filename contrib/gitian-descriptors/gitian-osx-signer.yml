@@ -7,7 +7,7 @@ architectures:
 packages:
 - "faketime"
 remotes:
-- "url": "https://github.com/interflexia/twincoin-detached-sigs.git"
+- "url": "https://github.com/Twincoin/twincoin-detached-sigs.git"
   "dir": "signature"
 files:
 - "twincoin-osx-unsigned.tar.gz"
