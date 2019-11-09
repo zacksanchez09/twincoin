@@ -149,20 +149,14 @@ public:
         checkpointData = (CCheckpointData) {
             {
                 {  0, uint256S("0x65565714f9e147036f7c3613a9bcfa9d35d683f91150f1ff96d5be7d36594601")},
-                {  1, uint256S("0x6d7d0b6f7a7c1aa392dfa1b9a475a62784c31d6b6ea28aa7d651622b231e968b")},
-                {  2, uint256S("0x58b4560c5de6fd9e238be8ec6f71107d92ccf057d94a64438ae36f3969d30618")},
-                {  3, uint256S("0x0bdd6fda716cdebe39fc296772826e5fe22303137a84bc0fcf1c0a165627fa55")},
-                {  5, uint256S("0x0e498ffc408dd924301a6fa1833871bb76edf9d6e435e549d18821c15fb57e10")},
-                {  8, uint256S("0x2f765874904af8aad680cb5934a2fba57abba29e3170e6e0234cfbcda4598546")},
-                { 13, uint256S("0xee4c398d40fbc75ef44587837491c9a26707178d04e3b5f683b0e1a9fe68b875")},
-                { 21, uint256S("0x7be873ddf5ad363bd16973a99f0847e598c61ecfa1dc7685bb6a643be1236f5f")},
-                { 34, uint256S("0xe0741c9a67ecf4f3b07c64cc80e134933013a9498f5605bce3bf1ff3d2e5fd7e")},
-                { 55, uint256S("0xe526b724bbe4af5daf2bf2b190dcee3b01a089382120868090911029b9528286")},
-                { 89, uint256S("0x724b8ccfd304319112ad0235914ed9da42f005d4f7bf23b7becd90bbed8b64f5")},
-                {144, uint256S("0x58c8205b81d647088d808ed202f7d977d55c8427e35b91f7c899d0bfd303911e")},
-                {233, uint256S("0xb0118053d61cf0db710568ef03098da4e97ef70acd72e866dfcefe608610891c")},
-                {377, uint256S("0xdec1d8606482b7d51037862803e8fe4cbe54674d7405d678fb5555dd0be19839")},
-                {521, uint256S("0x9a00cc68fb45f8700c0030571263f4a204d9b7bccfc068e7fa6d3c062ffb68b0")},
+                {  1, uint256S("0xbfa2af3b559a6b144bae0ae24162c30ac29cb521f7b07bc32a8cc579d30b4358")},
+                {  2, uint256S("0xfa5a96c418e5547144fa4f6c55353c9786374d5cb72ff6f9a26df8012ad06ff0")},
+                {  3, uint256S("0xa8872082396ef960b784de606e4cbd8ec89709724487d792700c91a2eff39cdc")},
+                {  4, uint256S("0x269c0b6e967b6f2100ebe39246dc73ed0793d89e997134667f5124874e3754ab")},
+                {  5, uint256S("0x054499e662d316a0adb79c21cbf2415bb4c4d284145c98764363bda77e5a5290")},
+                {  8, uint256S("0xff2caff3021ca0f43845cba6a8c7d5061f69e2edfbc3552ef5557d84477012d5")},
+                { 13, uint256S("0xaf701ab852162b79b637d1d1cacee60f1e5bd95e509bd82b6cd917b1f9ad4be1")},
+                { 15, uint256S("0x34fca767348b893d60b7fc8fccdbb825c3f76995aabde8662ccc201930117a21")},
             }
         };
 
